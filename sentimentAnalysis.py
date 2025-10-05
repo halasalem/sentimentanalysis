@@ -33,7 +33,7 @@ def nltk_libs():
 nltk_libs()
 
 st.title("📱Sentiment Analysis - Tweets")
-data= pd.read_csv("C:\\Users\\wincn\\streamlit projects\\test.csv",encoding="cp1252")
+data= pd.read_csv("test.csv",encoding="cp1252")
 
 
 st.subheader("View Dataset")
@@ -305,6 +305,7 @@ with tab8:
     ax.set_xlabel("Layer")
     ax.set_ylabel("Mean Activation")
     st.pyplot(fig)
+
 
 
 
