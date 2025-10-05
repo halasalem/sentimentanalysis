@@ -1,14 +1,10 @@
-﻿streamlit
+streamlit
 pandas
 numpy
+matplotlib
+seaborn
 scikit-learn
 nltk
-matplotlib
 plotly
-seaborn
 torch
 transformers
-huggingface-hub
-accelerate
-tokenizers
-safetensors
